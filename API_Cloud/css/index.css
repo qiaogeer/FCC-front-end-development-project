@@ -1,0 +1,494 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#header {
+	margin-top: 20px;
+	height: 80px;
+}
+
+#header_logo {
+	float: left;
+	padding-left: 60px;
+}
+
+#nav {
+	float: left;
+	width: 500px;
+	height: 80px;
+	margin: 0 auto;
+	margin-left: 500px;
+
+
+}
+
+#nav ul {
+	width: 500px;
+	height: 80px;
+}
+
+#nav li {
+	height: 43px;
+	line-height: 43px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	padding: 0 25px;
+}
+
+#nav li a {
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+.btn_login {
+	text-align: center;
+	font-size: 18px;
+	width: 80px;
+	height: 40px;
+	float: right;
+	background-color: #FFF;
+	border: none;
+
+}
+
+.btn_register {
+	color: #FFFFFF;
+	font-size: 18px;
+	float: right;
+	width: 90px;
+	height: 40px;
+	background-color: #89AE00;
+	margin-right: 30px;
+	border-radius: 50px;
+	border: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+#logoBanner {
+	margin-top: 100px;
+	background: url("../img/banner_bot.jpeg")no-repeat center/100%;
+	height: 200px;
+}
+
+#logotext {
+	display: block;
+	width: 1200px;
+	height: 200px;
+}
+
+#introdce_text1 {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 45px;
+}
+
+.introdce_text2 {
+	color: #747474;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#btn_bar {
+	overflow: hidden;
+
+	margin: 0 auto;
+	width: 300px;
+	font-size: 20px;
+	margin-top: 60px;
+}
+
+#commit_btn {
+	background-color: #9AC200;
+	width: 140px;
+	padding: 15px;
+	float: right;
+	border-radius: 20px;
+	border: none;
+	color: #FFFFFF;
+}
+
+#new_btn {
+	background-color: #FFFFFF;
+	padding: 15px;
+	width: 140px;
+	float: left;
+	border-radius: 20px;
+	border: #9ac200 solid 1px;
+	color: #9AC200;
+
+}
+
+#enterBanner {
+	margin-top: 80px;
+	clear: both;
+	height: 80px;
+	background: url(../img/enterBanner.png)center/100%;
+}
+
+#imgBanner {
+	height: 400px;
+	background: url(../img/imgbanner.png)center/100%;
+}
+
+
+.paltform_table {
+	background-color: #fff;
+}
+
+.table_box {
+	width: 380px;
+	height: 220px;
+	border: solid 1px #E7E9EE;
+	margin-bottom: 20px;
+
+
+}
+
+.table_box:hover {
+	background-color: #9BC200;
+}
+
+
+.table_box .box_p1 {
+	padding-top: 70px;
+	font-weight: 100;
+	font-size: 20px;
+	color: #666666;
+	padding-left: 20px;
+}
+
+.table_box .box_p2 {
+	color: #a7a7a7;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+#paltform_2 {
+	float: left;
+	width: 400px;
+	height: 600px;
+	margin-left: 200px;
+	background-color: #FBFBFB;
+
+
+}
+
+.center_title {
+	text-align: center;
+	margin: 130px auto;
+	font-weight: 100;
+	font-size: 35px;
+
+}
+
+#paltform_2 ul {
+	float: left;
+}
+
+#paltform_2 li {
+
+	height: 100px;
+	font-size: 20px;
+	list-style: none;
+}
+
+#paltform_2 li i {
+	padding-left: 40px;
+	width: 26px;
+	height: 26px;
+	background: url(../img/pointer_before.png)no-repeat;
+}
+
+#plusmode {
+	float: right;
+	width: 1200px;
+	height: 800px;
+	background: url(../img/plusmode1.png)center/110%;
+
+}
+
+#left_video {
+
+	float: left;
+}
+
+#right_text {
+	margin-top: 150px;
+	float: left;
+	width: 600px;
+	height: 500px;
+}
+
+.text_1 {
+	font-weight: 100;
+	font-size: 35px;
+}
+
+.text_2 {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #747474;
+}
+
+#btn_assess {
+	margin-top: 30px;
+	font-size: 18px;
+	background-color: #9AC200;
+	width: 200px;
+	padding: 15px;
+	border-radius: 30px;
+	border: none;
+	color: #FFFFFF;
+	display: block;
+	margin-bottom: 40px;
+}
+
+#right_text ul {
+	list-style: none;
+}
+
+#right_text ul li {
+	margin-top: 20px;
+}
+
+.icon_1 {
+	float: left;
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/assessment1.png)center/130%;
+}
+
+.icon_2 {
+	float: left;
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/assessment2.png)center/130%;
+}
+
+.icon_3 {
+	float: left;
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/assessment3.png)center/130%;
+}
+
+.text_3 {
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	color: #747474;
+}
+
+#number_bar {
+	overflow: hidden;
+	margin: 40px auto;
+
+}
+
+.number_box {
+	float: left;
+	width: 260px;
+	height: 120px;
+	border: solid #9BC200;
+	margin: 0 55px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+.number_title {
+	padding-top: 20px;
+	color: #9BC200;
+}
+
+.number {
+	padding-top: 20px;
+	font-size: 28px;
+	font-weight: 400;
+	color: #666666;
+}
+
+#slideBanner{
+	overflow: hidden;
+	margin-top: 100px;
+	width: 1200px;
+	height: 660px;
+	margin-bottom: 50px;
+	cursor: pointer;
+	position: relative;
+}
+
+.slide {
+	width: 8000px;
+	height: 660px;
+	position: absolute;
+	left: -1200px;
+}
+
+.pic {
+	float: left;
+	width: 1200px;
+	height: 660px;
+}
+
+.a {
+	background:url(../img/case2.png)center/100%;
+	
+}
+
+ .b {
+	background:url(../img/case1.png)center/100%;
+	
+}
+.c {
+	background:url(../img/case3.png)center/100%;
+}
+
+.circle img {
+	float: right;
+	width: 130px;
+	height: 260px;
+	margin-right: 30px;
+}
+
+
+.circle {
+	border: solid #E6E6E6 1px;
+	float: left;
+	width: 520px;
+	height: 380px;
+	background-color: #FBFBFB;
+	padding-top: 70px;
+	padding-left: 70px;
+}
+
+.circle_label {
+	padding: 10px;
+	border: solid 1px;
+	width: 120px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: center;
+}
+
+.circle_text {
+	margin-top: 20px;
+	font-size: 28px;
+	font-weight: 100;
+}
+
+.circle button {
+	margin-top: 50px;
+	background-color: #353535;
+	padding: 15px;
+	width: 140px;
+	float: left;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+
+
+#footer {
+	margin-top: 600px;
+	clear: both;
+	height: 600px
+}
+
+.ul_head {
+	color: #747474;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.footer_ul {
+	list-style: none;
+	float: left;
+	margin-right: 90px;
+}
+
+.footer_ul li {
+	margin-top: 20px;
+}
+
+.footer_ul a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.footer_ul a:hover {
+	color: #9AC200;
+
+}
+
+.wechat {
+	width: 45px;
+	height: 45px;
+}
+
+.qrcode {
+	display: none;
+	margin-left: 45px;
+}
+
+#footer_link {
+	height: 360px;
+
+}
+
+#friends_title {
+	font-size: 13px;
+	padding-top: 80px;
+	color: #747474;
+
+}
+
+#friends_banner {
+	height: 50px;
+	background: url(../img/zhengtiao.png)no-repeat center/100%;
+}
+
+.copyright_text a {
+	text-decoration: underline;
+}
+
+.copyright_text {
+	font-size: 13px;
+	padding-top: 20px;
+	color: #747474;
+
+}
+
+#footer_nav ul {
+	color: #747474;
+	margin-top: 20px;
+	list-style: none;
+
+}
+
+#footer_nav ul li {
+	color: #747474;
+	font-size: 13px;
+	float: left;
+	border-right: solid 1px;
+}
